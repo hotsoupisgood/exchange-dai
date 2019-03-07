@@ -1,0 +1,24 @@
+{
+  "name": "exchange-dai",
+  "version": "1.0.0",
+  "description": "Easy Web3.js interface for using the DAI ERC20 token. --- This is a work in progress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotsoupisgood/exchange-dai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotsoupisgood/exchange-dai/issues"
+  },
+  "homepage": "https://github.com/hotsoupisgood/exchange-dai#readme",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.7",
+    "mongoose": "^5.4.16",
+    "web3": "^1.0.0-beta.46"
+  }
+}
