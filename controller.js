@@ -22,7 +22,7 @@ exports.getAccount = function(addressToFind) {
 		address: addressToFind
 	})
 		.then(result => {
-
+			return result
 		})
 		.catch(err => {
 			console.log(err)
